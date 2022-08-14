@@ -19,7 +19,8 @@ export function SignIn(){
             mb={4}
             InputLeftElement={<Icon as={<Envelope />} />}
             />
-            <Input placeholder="Senha" />
+            <Input placeholder="Senha" 
+            InputLeftElement={<Icon as={<Key />} />}/>
         </VStack>
     )
 }
